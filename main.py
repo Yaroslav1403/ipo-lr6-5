@@ -12,11 +12,22 @@ import random
 random_numbers = [random.randint(-50, 50) for _ in range(25)]
 
 #Подсчитываем количество положительных элементов
-positive_count = sum(1 for num in random_numbers if num > 0)
+positive_count = 0
+for num in random_numbers:  
+    if num > 0:
+        positive_count += 1
+        
 #Подсчитываем количество отрицательных элементов
-negative_count= sum(1 for num in random_numbers if num < 0)
+negative_count = 0
+for num in random_numbers: 
+    if num < 0:
+        negative_count += 1
+
 #Подсчитываем количество нулевых элементов
-zero_count = sum(1 for num in random_numbers if num == 0)
+zero_count = 0
+for num in random_numbers: 
+    if num == 0:
+        zero_count += 1
 
 #Определяем длину общего количество элементов
 all_count = len(random_numbers)
