@@ -54,14 +54,14 @@ max_value = max(random_numbers)
 min_value = min(random_numbers)
 
 #Выводим список случайных чисел
-print("Список случайных чисел: ", random_numbers)
+print("Список случайных чисел:", random_numbers)
 #Выводим количество положительных чисел
-print("Количество положительных чисел: ", positive_count, f"({percent_positive:}%)")
+print("Количество положительных чисел:", positive_count, f"({percent_positive:}%)")
 #Выводим количество отрицательных чисел
-print("Количество отрицательных чисел: ", negative_count, f"({percent_negative:}%)")
+print("Количество отрицательных чисел:", negative_count, f"({percent_negative:}%)")
 #Выводим количество нулевых чисел
-print("Количество нулевых чисел: ", zero_count, f"({percent_zero:}%)")
+print("Количество нулевых чисел:", zero_count, f"({percent_zero:}%)")
 #Выводим самое большое значение
-print("Самое большое значение: ", max_value)
+print("Самое большое значение:", max_value)
 #Выводим самое маленькое значение
-print("Самое маленькое значение: ", min_value)
+print("Самое маленькое значение:", min_value)
